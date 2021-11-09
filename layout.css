@@ -37,9 +37,9 @@ h3 {
 h4 { color: rgb(25, 25, 112); }
 
 #container {
-             width: 640px;
-             width: 660px;
-             w\idth: 640px;
+             width: 640px !important;  /* you can just use a !important, and not 3 widths */
+             /* width: 660px; */
+             /* w\idth: 640px; */
              border: 4px solid rgb(255, 185, 15);
              margin: 18px;
              margin-left: auto;
